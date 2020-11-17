@@ -1,9 +1,9 @@
-﻿<process name="Launch Application" version="1.0" bpversion="6.9.0.26970" narrative="Retrieve data from flipkart&#xD;&#xA;" byrefcollection="true" type="object" runmode="Exclusive" preferredid="51c5fd2c-76eb-4346-9971-bc79a8e756cb">
+﻿<process name="flipkartObject" version="1.0" bpversion="6.9.0.26970" narrative="Getiing data form the flipkart site and storing it" byrefcollection="true" type="object" runmode="Exclusive" preferredid="8067cb7f-afca-43f7-9b3a-505f85a4355f">
   <appdef>
     <element name="flipkartObject">
-      <id>7cd0e2da-c81d-44d2-bd16-804ac8da3c1b</id>
+      <id>4f5b4a8f-de0b-4381-9ffb-efccc4937194</id>
       <element name="search bar">
-        <id>bc523d5b-53e4-4eae-958a-166ad912a891</id>
+        <id>8d166afa-72fc-4bcb-ad7c-ee3107322f6d</id>
         <type>WebTextEdit</type>
         <basetype>WebTextEdit</basetype>
         <datatype>text</datatype>
@@ -76,7 +76,7 @@
             <ProcessValue datatype="text" value="https://www.flipkart.com/" />
           </attribute>
           <attribute name="wClass">
-            <ProcessValue datatype="text" value="LM6RPg" />
+            <ProcessValue datatype="text" value="_3704LK" />
           </attribute>
           <attribute name="wChildCount">
             <ProcessValue datatype="number" value="0" />
@@ -126,7 +126,7 @@
         </attributes>
       </element>
       <element name="search button">
-        <id>f380d7f0-9a99-41a8-b9b5-38f2ae76d58d</id>
+        <id>1cc1c016-1614-43b9-8c88-03a6b5852dd8</id>
         <type>WebElement</type>
         <basetype>WebElement</basetype>
         <datatype>text</datatype>
@@ -196,7 +196,7 @@
             <ProcessValue datatype="text" value="https://www.flipkart.com/" />
           </attribute>
           <attribute name="wClass">
-            <ProcessValue datatype="text" value="vh79eN" />
+            <ProcessValue datatype="text" value="L0Z3Pu" />
           </attribute>
           <attribute name="wChildCount">
             <ProcessValue datatype="number" value="1" />
@@ -245,8 +245,8 @@
           </attribute>
         </attributes>
       </element>
-      <element name="drop down">
-        <id>87b261c2-6f2d-42ed-ace6-7ab61af2028f</id>
+      <element name="dropdown">
+        <id>6a04d487-f10a-4445-8613-d0882865cec9</id>
         <type>WebLink</type>
         <basetype>WebLink</basetype>
         <datatype>text</datatype>
@@ -316,7 +316,7 @@
             <ProcessValue datatype="text" value="https://www.flipkart.com/" />
           </attribute>
           <attribute name="wClass">
-            <ProcessValue datatype="text" value="_2ja22P" />
+            <ProcessValue datatype="text" value="_3izBDY" />
           </attribute>
           <attribute name="wChildCount">
             <ProcessValue datatype="number" value="2" />
@@ -343,7 +343,7 @@
             <ProcessValue datatype="text" value="" />
           </attribute>
           <attribute name="wTargetAddress">
-            <ProcessValue datatype="text" value="/search?q=iphone+11&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_2_8_na_na_ps&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_2_8_na_na_ps&amp;as-pos=2&amp;as-type=RECENT&amp;suggestionId=iphone+11%7CMobiles&amp;requestId=9da16c77-cd8d-4054-b748-1744970fec75&amp;as-searchtext=iphon%2011" />
+            <ProcessValue datatype="text" value="/search?q=iphone+11&amp;sid=tyy%2C4io&amp;as=on&amp;as-show=on&amp;otracker=AS_QueryStore_OrganicAutoSuggest_2_8_na_na_na&amp;otracker1=AS_QueryStore_OrganicAutoSuggest_2_8_na_na_na&amp;as-pos=2&amp;as-type=RECENT&amp;suggestionId=iphone+11%7CMobiles&amp;requestId=c9aa5549-527c-437e-9eb4-ea231af71f8b&amp;as-searchtext=iphone11" />
           </attribute>
           <attribute name="wAlt">
             <ProcessValue datatype="text" value="" />
@@ -366,7 +366,7 @@
         </attributes>
       </element>
       <element name="name">
-        <id>7b77416c-0376-44f4-97d7-4ce33fde0056</id>
+        <id>64c97115-9e79-4f9c-ba79-8280613e9db9</id>
         <type>WebElement</type>
         <basetype>WebElement</basetype>
         <datatype>text</datatype>
@@ -433,10 +433,10 @@
             <ProcessValue datatype="text" value="" />
           </attribute>
           <attribute name="wPageAddress" inuse="True">
-            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=iphone%2011&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
+            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=%20IPHONE11&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
           </attribute>
           <attribute name="wClass">
-            <ProcessValue datatype="text" value="_3wU53n" />
+            <ProcessValue datatype="text" value="_4rR01T" />
           </attribute>
           <attribute name="wChildCount">
             <ProcessValue datatype="number" value="0" />
@@ -457,127 +457,7 @@
             <ProcessValue datatype="text" value="" />
           </attribute>
           <attribute name="wInnerText">
-            <ProcessValue datatype="text" value="Apple iPhone 11 (Black, 64 GB) (Includes EarPods, Power Adapter)" />
-          </attribute>
-          <attribute name="wSource">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wTargetAddress">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wAlt">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wPattern">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wRel">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wLinkTarget">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wPlaceholder">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="MatchIndex">
-            <ProcessValue datatype="number" value="1" />
-          </attribute>
-        </attributes>
-      </element>
-      <element name="price">
-        <id>f55b8f4d-e3fe-407e-b0c6-5c35867fb1ae</id>
-        <type>WebElement</type>
-        <basetype>WebElement</basetype>
-        <datatype>text</datatype>
-        <diagnose>False</diagnose>
-        <attributes>
-          <attribute name="wX">
-            <ProcessValue datatype="number" value="1130" />
-          </attribute>
-          <attribute name="wY">
-            <ProcessValue datatype="number" value="223" />
-          </attribute>
-          <attribute name="wWidth">
-            <ProcessValue datatype="number" value="87" />
-          </attribute>
-          <attribute name="wHeight">
-            <ProcessValue datatype="number" value="24" />
-          </attribute>
-          <attribute name="wClientX">
-            <ProcessValue datatype="number" value="0" />
-          </attribute>
-          <attribute name="wClientY">
-            <ProcessValue datatype="number" value="0" />
-          </attribute>
-          <attribute name="wClientWidth">
-            <ProcessValue datatype="number" value="88" />
-          </attribute>
-          <attribute name="wClientHeight">
-            <ProcessValue datatype="number" value="25" />
-          </attribute>
-          <attribute name="wOffsetX">
-            <ProcessValue datatype="number" value="818" />
-          </attribute>
-          <attribute name="wOffsetY">
-            <ProcessValue datatype="number" value="-1" />
-          </attribute>
-          <attribute name="wOffsetWidth">
-            <ProcessValue datatype="number" value="88" />
-          </attribute>
-          <attribute name="wOffsetHeight">
-            <ProcessValue datatype="number" value="25" />
-          </attribute>
-          <attribute name="wScrollX">
-            <ProcessValue datatype="number" value="0" />
-          </attribute>
-          <attribute name="wScrollY">
-            <ProcessValue datatype="number" value="0" />
-          </attribute>
-          <attribute name="wScrollWidth">
-            <ProcessValue datatype="number" value="88" />
-          </attribute>
-          <attribute name="wScrollHeight">
-            <ProcessValue datatype="number" value="27" />
-          </attribute>
-          <attribute name="wElementType" inuse="True">
-            <ProcessValue datatype="text" value="DIV" />
-          </attribute>
-          <attribute name="wXPath" comparisontype="dynamic" inuse="True">
-            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[3]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]" />
-          </attribute>
-          <attribute name="wCssSelector">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wValue">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wPageAddress" inuse="True">
-            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=iphone%2011&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
-          </attribute>
-          <attribute name="wClass">
-            <ProcessValue datatype="text" value="_1vC4OE _2rQ-NK" />
-          </attribute>
-          <attribute name="wChildCount">
-            <ProcessValue datatype="number" value="0" />
-          </attribute>
-          <attribute name="wIsEditable">
-            <ProcessValue datatype="flag" value="False" />
-          </attribute>
-          <attribute name="wStyle">
-            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
-          </attribute>
-          <attribute name="wTabIndex">
-            <ProcessValue datatype="number" value="-1" />
-          </attribute>
-          <attribute name="wInputType">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wAccessKey" inuse="True">
-            <ProcessValue datatype="text" value="" />
-          </attribute>
-          <attribute name="wInnerText">
-            <ProcessValue datatype="text" value="₹54,900" />
+            <ProcessValue datatype="text" value="Apple iPhone 11 (White, 64 GB) (Includes EarPods, Power Adapter)" />
           </attribute>
           <attribute name="wSource">
             <ProcessValue datatype="text" value="" />
@@ -606,7 +486,7 @@
         </attributes>
       </element>
       <element name="ratings">
-        <id>48b81e81-b661-47b0-b1a6-d58f03d981b7</id>
+        <id>79f7a6d2-55c2-49c0-afa9-7787e95887df</id>
         <type>WebElement</type>
         <basetype>WebElement</basetype>
         <datatype>text</datatype>
@@ -673,10 +553,10 @@
             <ProcessValue datatype="text" value="" />
           </attribute>
           <attribute name="wPageAddress" inuse="True">
-            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=iphone%2011&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
+            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=%20IPHONE11&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
           </attribute>
           <attribute name="wClass">
-            <ProcessValue datatype="text" value="hGSR34" />
+            <ProcessValue datatype="text" value="_3LWZlK" />
           </attribute>
           <attribute name="wChildCount">
             <ProcessValue datatype="number" value="1" />
@@ -698,6 +578,126 @@
           </attribute>
           <attribute name="wInnerText">
             <ProcessValue datatype="text" value="4.7" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="price">
+        <id>178000f9-992e-40ac-b541-ec0d84ae7180</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="1130" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="223" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="87" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="88" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="818" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="88" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="25" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="88" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="27" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="DIV" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[3]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress" inuse="True">
+            <ProcessValue datatype="text" value="https://www.flipkart.com/search?q=%20IPHONE11&amp;otracker=search&amp;otracker1=search&amp;marketplace=FLIPKART&amp;as-show=on&amp;as=off" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="_30jeq3 _1_WHN1" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;alignContent&quot;:&quot;&quot;,&quot;alignItems&quot;:&quot;&quot;,&quot;alignSelf&quot;:&quot;&quot;,&quot;alignmentBaseline&quot;:&quot;&quot;,&quot;all&quot;:&quot;&quot;,&quot;animation&quot;:&quot;&quot;,&quot;animationDelay&quot;:&quot;&quot;,&quot;animationDirection&quot;:&quot;&quot;,&quot;animationDuration&quot;:&quot;&quot;,&quot;animationFillMode&quot;:&quot;&quot;,&quot;animationIterationCount&quot;:&quot;&quot;,&quot;animationName&quot;:&quot;&quot;,&quot;animationPlayState&quot;:&quot;&quot;,&quot;animationTimingFunction&quot;:&quot;&quot;,&quot;appearance&quot;:&quot;&quot;,&quot;backdropFilter&quot;:&quot;&quot;,&quot;backfaceVisibility&quot;:&quot;&quot;,&quot;background&quot;:&quot;&quot;,&quot;backgroundAttachment&quot;:&quot;&quot;,&quot;backgroundBlendMode&quot;:&quot;&quot;,&quot;backgroundClip&quot;:&quot;&quot;,&quot;backgroundColor&quot;:&quot;&quot;,&quot;backgroundImage&quot;:&quot;&quot;,&quot;backgroundOrigin&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundPositionX&quot;:&quot;&quot;,&quot;backgroundPositionY&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;,&quot;backgroundRepeatX&quot;:&quot;&quot;,&quot;backgroundRepeatY&quot;:&quot;&quot;,&quot;backgroundSize&quot;:&quot;&quot;,&quot;baselineShift&quot;:&quot;&quot;,&quot;blockSize&quot;:&quot;&quot;,&quot;border&quot;:&quot;&quot;,&quot;borderBlockEnd&quot;:&quot;&quot;,&quot;borderBlockEndColor&quot;:&quot;&quot;,&quot;borderBlockEndStyle&quot;:&quot;&quot;,&quot;borderBlockEndWidth&quot;:&quot;&quot;,&quot;borderBlockStart&quot;:&quot;&quot;,&quot;borderBlockStartColor&quot;:&quot;&quot;,&quot;borderBlockStartStyle&quot;:&quot;&quot;,&quot;borderBlockStartWidth&quot;:&quot;&quot;,&quot;borderBottom&quot;:&quot;&quot;,&quot;borderBottomColor&quot;:&quot;&quot;,&quot;borderBottomLeftRadius&quot;:&quot;&quot;,&quot;borderBottomRightRadius&quot;:&quot;&quot;,&quot;borderBottomStyle&quot;:&quot;&quot;,&quot;borderBottomWidth&quot;:&quot;&quot;,&quot;borderCollapse&quot;:&quot;&quot;,&quot;borderColor&quot;:&quot;&quot;,&quot;borderImage&quot;:&quot;&quot;,&quot;borderImageOutset&quot;:&quot;&quot;,&quot;borderImageRepeat&quot;:&quot;&quot;,&quot;borderImageSlice&quot;:&quot;&quot;,&quot;borderImageSource&quot;:&quot;&quot;,&quot;borderImageWidth&quot;:&quot;&quot;,&quot;borderInlineEnd&quot;:&quot;&quot;,&quot;borderInlineEndColor&quot;:&quot;&quot;,&quot;borderInlineEndStyle&quot;:&quot;&quot;,&quot;borderInlineEndWidth&quot;:&quot;&quot;,&quot;borderInlineStart&quot;:&quot;&quot;,&quot;borderInlineStartColor&quot;:&quot;&quot;,&quot;borderInlineStartStyle&quot;:&quot;&quot;,&quot;borderInlineStartWidth&quot;:&quot;&quot;,&quot;borderLeft&quot;:&quot;&quot;,&quot;borderLeftColor&quot;:&quot;&quot;,&quot;borderLeftStyle&quot;:&quot;&quot;,&quot;borderLeftWidth&quot;:&quot;&quot;,&quot;borderRadius&quot;:&quot;&quot;,&quot;borderRight&quot;:&quot;&quot;,&quot;borderRightColor&quot;:&quot;&quot;,&quot;borderRightStyle&quot;:&quot;&quot;,&quot;borderRightWidth&quot;:&quot;&quot;,&quot;borderSpacing&quot;:&quot;&quot;,&quot;borderStyle&quot;:&quot;&quot;,&quot;borderTop&quot;:&quot;&quot;,&quot;borderTopColor&quot;:&quot;&quot;,&quot;borderTopLeftRadius&quot;:&quot;&quot;,&quot;borderTopRightRadius&quot;:&quot;&quot;,&quot;borderTopStyle&quot;:&quot;&quot;,&quot;borderTopWidth&quot;:&quot;&quot;,&quot;borderWidth&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;boxShadow&quot;:&quot;&quot;,&quot;boxSizing&quot;:&quot;&quot;,&quot;breakAfter&quot;:&quot;&quot;,&quot;breakBefore&quot;:&quot;&quot;,&quot;breakInside&quot;:&quot;&quot;,&quot;bufferedRendering&quot;:&quot;&quot;,&quot;captionSide&quot;:&quot;&quot;,&quot;caretColor&quot;:&quot;&quot;,&quot;clear&quot;:&quot;&quot;,&quot;clip&quot;:&quot;&quot;,&quot;clipPath&quot;:&quot;&quot;,&quot;clipRule&quot;:&quot;&quot;,&quot;color&quot;:&quot;&quot;,&quot;colorInterpolation&quot;:&quot;&quot;,&quot;colorInterpolationFilters&quot;:&quot;&quot;,&quot;colorRendering&quot;:&quot;&quot;,&quot;colorScheme&quot;:&quot;&quot;,&quot;columnCount&quot;:&quot;&quot;,&quot;columnFill&quot;:&quot;&quot;,&quot;columnGap&quot;:&quot;&quot;,&quot;columnRule&quot;:&quot;&quot;,&quot;columnRuleColor&quot;:&quot;&quot;,&quot;columnRuleStyle&quot;:&quot;&quot;,&quot;columnRuleWidth&quot;:&quot;&quot;,&quot;columnSpan&quot;:&quot;&quot;,&quot;columnWidth&quot;:&quot;&quot;,&quot;columns&quot;:&quot;&quot;,&quot;contain&quot;:&quot;&quot;,&quot;containIntrinsicSize&quot;:&quot;&quot;,&quot;content&quot;:&quot;&quot;,&quot;contentVisibility&quot;:&quot;&quot;,&quot;counterIncrement&quot;:&quot;&quot;,&quot;counterReset&quot;:&quot;&quot;,&quot;counterSet&quot;:&quot;&quot;,&quot;cursor&quot;:&quot;&quot;,&quot;cx&quot;:&quot;&quot;,&quot;cy&quot;:&quot;&quot;,&quot;d&quot;:&quot;&quot;,&quot;direction&quot;:&quot;&quot;,&quot;display&quot;:&quot;&quot;,&quot;dominantBaseline&quot;:&quot;&quot;,&quot;emptyCells&quot;:&quot;&quot;,&quot;fill&quot;:&quot;&quot;,&quot;fillOpacity&quot;:&quot;&quot;,&quot;fillRule&quot;:&quot;&quot;,&quot;filter&quot;:&quot;&quot;,&quot;flex&quot;:&quot;&quot;,&quot;flexBasis&quot;:&quot;&quot;,&quot;flexDirection&quot;:&quot;&quot;,&quot;flexFlow&quot;:&quot;&quot;,&quot;flexGrow&quot;:&quot;&quot;,&quot;flexShrink&quot;:&quot;&quot;,&quot;flexWrap&quot;:&quot;&quot;,&quot;float&quot;:&quot;&quot;,&quot;floodColor&quot;:&quot;&quot;,&quot;floodOpacity&quot;:&quot;&quot;,&quot;font&quot;:&quot;&quot;,&quot;fontDisplay&quot;:&quot;&quot;,&quot;fontFamily&quot;:&quot;&quot;,&quot;fontFeatureSettings&quot;:&quot;&quot;,&quot;fontKerning&quot;:&quot;&quot;,&quot;fontOpticalSizing&quot;:&quot;&quot;,&quot;fontSize&quot;:&quot;&quot;,&quot;fontStretch&quot;:&quot;&quot;,&quot;fontStyle&quot;:&quot;&quot;,&quot;fontVariant&quot;:&quot;&quot;,&quot;fontVariantCaps&quot;:&quot;&quot;,&quot;fontVariantEastAsian&quot;:&quot;&quot;,&quot;fontVariantLigatures&quot;:&quot;&quot;,&quot;fontVariantNumeric&quot;:&quot;&quot;,&quot;fontVariationSettings&quot;:&quot;&quot;,&quot;fontWeight&quot;:&quot;&quot;,&quot;gap&quot;:&quot;&quot;,&quot;grid&quot;:&quot;&quot;,&quot;gridArea&quot;:&quot;&quot;,&quot;gridAutoColumns&quot;:&quot;&quot;,&quot;gridAutoFlow&quot;:&quot;&quot;,&quot;gridAutoRows&quot;:&quot;&quot;,&quot;gridColumn&quot;:&quot;&quot;,&quot;gridColumnEnd&quot;:&quot;&quot;,&quot;gridColumnGap&quot;:&quot;&quot;,&quot;gridColumnStart&quot;:&quot;&quot;,&quot;gridGap&quot;:&quot;&quot;,&quot;gridRow&quot;:&quot;&quot;,&quot;gridRowEnd&quot;:&quot;&quot;,&quot;gridRowGap&quot;:&quot;&quot;,&quot;gridRowStart&quot;:&quot;&quot;,&quot;gridTemplate&quot;:&quot;&quot;,&quot;gridTemplateAreas&quot;:&quot;&quot;,&quot;gridTemplateColumns&quot;:&quot;&quot;,&quot;gridTemplateRows&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;,&quot;hyphens&quot;:&quot;&quot;,&quot;imageOrientation&quot;:&quot;&quot;,&quot;imageRendering&quot;:&quot;&quot;,&quot;inherits&quot;:&quot;&quot;,&quot;initialValue&quot;:&quot;&quot;,&quot;inlineSize&quot;:&quot;&quot;,&quot;isolation&quot;:&quot;&quot;,&quot;justifyContent&quot;:&quot;&quot;,&quot;justifyItems&quot;:&quot;&quot;,&quot;justifySelf&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;letterSpacing&quot;:&quot;&quot;,&quot;lightingColor&quot;:&quot;&quot;,&quot;lineBreak&quot;:&quot;&quot;,&quot;lineHeight&quot;:&quot;&quot;,&quot;listStyle&quot;:&quot;&quot;,&quot;listStyleImage&quot;:&quot;&quot;,&quot;listStylePosition&quot;:&quot;&quot;,&quot;listStyleType&quot;:&quot;&quot;,&quot;margin&quot;:&quot;&quot;,&quot;marginBlockEnd&quot;:&quot;&quot;,&quot;marginBlockStart&quot;:&quot;&quot;,&quot;marginBottom&quot;:&quot;&quot;,&quot;marginInlineEnd&quot;:&quot;&quot;,&quot;marginInlineStart&quot;:&quot;&quot;,&quot;marginLeft&quot;:&quot;&quot;,&quot;marginRight&quot;:&quot;&quot;,&quot;marginTop&quot;:&quot;&quot;,&quot;marker&quot;:&quot;&quot;,&quot;markerEnd&quot;:&quot;&quot;,&quot;markerMid&quot;:&quot;&quot;,&quot;markerStart&quot;:&quot;&quot;,&quot;mask&quot;:&quot;&quot;,&quot;maskType&quot;:&quot;&quot;,&quot;maxBlockSize&quot;:&quot;&quot;,&quot;maxHeight&quot;:&quot;&quot;,&quot;maxInlineSize&quot;:&quot;&quot;,&quot;maxWidth&quot;:&quot;&quot;,&quot;maxZoom&quot;:&quot;&quot;,&quot;minBlockSize&quot;:&quot;&quot;,&quot;minHeight&quot;:&quot;&quot;,&quot;minInlineSize&quot;:&quot;&quot;,&quot;minWidth&quot;:&quot;&quot;,&quot;minZoom&quot;:&quot;&quot;,&quot;mixBlendMode&quot;:&quot;&quot;,&quot;objectFit&quot;:&quot;&quot;,&quot;objectPosition&quot;:&quot;&quot;,&quot;offset&quot;:&quot;&quot;,&quot;offsetDistance&quot;:&quot;&quot;,&quot;offsetPath&quot;:&quot;&quot;,&quot;offsetRotate&quot;:&quot;&quot;,&quot;opacity&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;&quot;,&quot;orphans&quot;:&quot;&quot;,&quot;outline&quot;:&quot;&quot;,&quot;outlineColor&quot;:&quot;&quot;,&quot;outlineOffset&quot;:&quot;&quot;,&quot;outlineStyle&quot;:&quot;&quot;,&quot;outlineWidth&quot;:&quot;&quot;,&quot;overflow&quot;:&quot;&quot;,&quot;overflowAnchor&quot;:&quot;&quot;,&quot;overflowWrap&quot;:&quot;&quot;,&quot;overflowX&quot;:&quot;&quot;,&quot;overflowY&quot;:&quot;&quot;,&quot;overscrollBehavior&quot;:&quot;&quot;,&quot;overscrollBehaviorBlock&quot;:&quot;&quot;,&quot;overscrollBehaviorInline&quot;:&quot;&quot;,&quot;overscrollBehaviorX&quot;:&quot;&quot;,&quot;overscrollBehaviorY&quot;:&quot;&quot;,&quot;padding&quot;:&quot;&quot;,&quot;paddingBlockEnd&quot;:&quot;&quot;,&quot;paddingBlockStart&quot;:&quot;&quot;,&quot;paddingBottom&quot;:&quot;&quot;,&quot;paddingInlineEnd&quot;:&quot;&quot;,&quot;paddingInlineStart&quot;:&quot;&quot;,&quot;paddingLeft&quot;:&quot;&quot;,&quot;paddingRight&quot;:&quot;&quot;,&quot;paddingTop&quot;:&quot;&quot;,&quot;page&quot;:&quot;&quot;,&quot;pageBreakAfter&quot;:&quot;&quot;,&quot;pageBreakBefore&quot;:&quot;&quot;,&quot;pageBreakInside&quot;:&quot;&quot;,&quot;pageOrientation&quot;:&quot;&quot;,&quot;paintOrder&quot;:&quot;&quot;,&quot;perspective&quot;:&quot;&quot;,&quot;perspectiveOrigin&quot;:&quot;&quot;,&quot;placeContent&quot;:&quot;&quot;,&quot;placeItems&quot;:&quot;&quot;,&quot;placeSelf&quot;:&quot;&quot;,&quot;pointerEvents&quot;:&quot;&quot;,&quot;position&quot;:&quot;&quot;,&quot;quotes&quot;:&quot;&quot;,&quot;r&quot;:&quot;&quot;,&quot;resize&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;rowGap&quot;:&quot;&quot;,&quot;rubyPosition&quot;:&quot;&quot;,&quot;rx&quot;:&quot;&quot;,&quot;ry&quot;:&quot;&quot;,&quot;scrollBehavior&quot;:&quot;&quot;,&quot;scrollMargin&quot;:&quot;&quot;,&quot;scrollMarginBlock&quot;:&quot;&quot;,&quot;scrollMarginBlockEnd&quot;:&quot;&quot;,&quot;scrollMarginBlockStart&quot;:&quot;&quot;,&quot;scrollMarginBottom&quot;:&quot;&quot;,&quot;scrollMarginInline&quot;:&quot;&quot;,&quot;scrollMarginInlineEnd&quot;:&quot;&quot;,&quot;scrollMarginInlineStart&quot;:&quot;&quot;,&quot;scrollMarginLeft&quot;:&quot;&quot;,&quot;scrollMarginRight&quot;:&quot;&quot;,&quot;scrollMarginTop&quot;:&quot;&quot;,&quot;scrollPadding&quot;:&quot;&quot;,&quot;scrollPaddingBlock&quot;:&quot;&quot;,&quot;scrollPaddingBlockEnd&quot;:&quot;&quot;,&quot;scrollPaddingBlockStart&quot;:&quot;&quot;,&quot;scrollPaddingBottom&quot;:&quot;&quot;,&quot;scrollPaddingInline&quot;:&quot;&quot;,&quot;scrollPaddingInlineEnd&quot;:&quot;&quot;,&quot;scrollPaddingInlineStart&quot;:&quot;&quot;,&quot;scrollPaddingLeft&quot;:&quot;&quot;,&quot;scrollPaddingRight&quot;:&quot;&quot;,&quot;scrollPaddingTop&quot;:&quot;&quot;,&quot;scrollSnapAlign&quot;:&quot;&quot;,&quot;scrollSnapStop&quot;:&quot;&quot;,&quot;scrollSnapType&quot;:&quot;&quot;,&quot;shapeImageThreshold&quot;:&quot;&quot;,&quot;shapeMargin&quot;:&quot;&quot;,&quot;shapeOutside&quot;:&quot;&quot;,&quot;shapeRendering&quot;:&quot;&quot;,&quot;size&quot;:&quot;&quot;,&quot;speak&quot;:&quot;&quot;,&quot;src&quot;:&quot;&quot;,&quot;stopColor&quot;:&quot;&quot;,&quot;stopOpacity&quot;:&quot;&quot;,&quot;stroke&quot;:&quot;&quot;,&quot;strokeDasharray&quot;:&quot;&quot;,&quot;strokeDashoffset&quot;:&quot;&quot;,&quot;strokeLinecap&quot;:&quot;&quot;,&quot;strokeLinejoin&quot;:&quot;&quot;,&quot;strokeMiterlimit&quot;:&quot;&quot;,&quot;strokeOpacity&quot;:&quot;&quot;,&quot;strokeWidth&quot;:&quot;&quot;,&quot;syntax&quot;:&quot;&quot;,&quot;tabSize&quot;:&quot;&quot;,&quot;tableLayout&quot;:&quot;&quot;,&quot;textAlign&quot;:&quot;&quot;,&quot;textAlignLast&quot;:&quot;&quot;,&quot;textAnchor&quot;:&quot;&quot;,&quot;textCombineUpright&quot;:&quot;&quot;,&quot;textDecoration&quot;:&quot;&quot;,&quot;textDecorationColor&quot;:&quot;&quot;,&quot;textDecorationLine&quot;:&quot;&quot;,&quot;textDecorationSkipInk&quot;:&quot;&quot;,&quot;textDecorationStyle&quot;:&quot;&quot;,&quot;textIndent&quot;:&quot;&quot;,&quot;textOrientation&quot;:&quot;&quot;,&quot;textOverflow&quot;:&quot;&quot;,&quot;textRendering&quot;:&quot;&quot;,&quot;textShadow&quot;:&quot;&quot;,&quot;textSizeAdjust&quot;:&quot;&quot;,&quot;textTransform&quot;:&quot;&quot;,&quot;textUnderlinePosition&quot;:&quot;&quot;,&quot;top&quot;:&quot;&quot;,&quot;touchAction&quot;:&quot;&quot;,&quot;transform&quot;:&quot;&quot;,&quot;transformBox&quot;:&quot;&quot;,&quot;transformOrigin&quot;:&quot;&quot;,&quot;transformStyle&quot;:&quot;&quot;,&quot;transition&quot;:&quot;&quot;,&quot;transitionDelay&quot;:&quot;&quot;,&quot;transitionDuration&quot;:&quot;&quot;,&quot;transitionProperty&quot;:&quot;&quot;,&quot;transitionTimingFunction&quot;:&quot;&quot;,&quot;unicodeBidi&quot;:&quot;&quot;,&quot;unicodeRange&quot;:&quot;&quot;,&quot;userSelect&quot;:&quot;&quot;,&quot;userZoom&quot;:&quot;&quot;,&quot;vectorEffect&quot;:&quot;&quot;,&quot;verticalAlign&quot;:&quot;&quot;,&quot;visibility&quot;:&quot;&quot;,&quot;webkitAlignContent&quot;:&quot;&quot;,&quot;webkitAlignItems&quot;:&quot;&quot;,&quot;webkitAlignSelf&quot;:&quot;&quot;,&quot;webkitAnimation&quot;:&quot;&quot;,&quot;webkitAnimationDelay&quot;:&quot;&quot;,&quot;webkitAnimationDirection&quot;:&quot;&quot;,&quot;webkitAnimationDuration&quot;:&quot;&quot;,&quot;webkitAnimationFillMode&quot;:&quot;&quot;,&quot;webkitAnimationIterationCount&quot;:&quot;&quot;,&quot;webkitAnimationName&quot;:&quot;&quot;,&quot;webkitAnimationPlayState&quot;:&quot;&quot;,&quot;webkitAnimationTimingFunction&quot;:&quot;&quot;,&quot;webkitAppRegion&quot;:&quot;&quot;,&quot;webkitAppearance&quot;:&quot;&quot;,&quot;webkitBackfaceVisibility&quot;:&quot;&quot;,&quot;webkitBackgroundClip&quot;:&quot;&quot;,&quot;webkitBackgroundOrigin&quot;:&quot;&quot;,&quot;webkitBackgroundSize&quot;:&quot;&quot;,&quot;webkitBorderAfter&quot;:&quot;&quot;,&quot;webkitBorderAfterColor&quot;:&quot;&quot;,&quot;webkitBorderAfterStyle&quot;:&quot;&quot;,&quot;webkitBorderAfterWidth&quot;:&quot;&quot;,&quot;webkitBorderBefore&quot;:&quot;&quot;,&quot;webkitBorderBeforeColor&quot;:&quot;&quot;,&quot;webkitBorderBeforeStyle&quot;:&quot;&quot;,&quot;webkitBorderBeforeWidth&quot;:&quot;&quot;,&quot;webkitBorderBottomLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderBottomRightRadius&quot;:&quot;&quot;,&quot;webkitBorderEnd&quot;:&quot;&quot;,&quot;webkitBorderEndColor&quot;:&quot;&quot;,&quot;webkitBorderEndStyle&quot;:&quot;&quot;,&quot;webkitBorderEndWidth&quot;:&quot;&quot;,&quot;webkitBorderHorizontalSpacing&quot;:&quot;&quot;,&quot;webkitBorderImage&quot;:&quot;&quot;,&quot;webkitBorderRadius&quot;:&quot;&quot;,&quot;webkitBorderStart&quot;:&quot;&quot;,&quot;webkitBorderStartColor&quot;:&quot;&quot;,&quot;webkitBorderStartStyle&quot;:&quot;&quot;,&quot;webkitBorderStartWidth&quot;:&quot;&quot;,&quot;webkitBorderTopLeftRadius&quot;:&quot;&quot;,&quot;webkitBorderTopRightRadius&quot;:&quot;&quot;,&quot;webkitBorderVerticalSpacing&quot;:&quot;&quot;,&quot;webkitBoxAlign&quot;:&quot;&quot;,&quot;webkitBoxDecorationBreak&quot;:&quot;&quot;,&quot;webkitBoxDirection&quot;:&quot;&quot;,&quot;webkitBoxFlex&quot;:&quot;&quot;,&quot;webkitBoxOrdinalGroup&quot;:&quot;&quot;,&quot;webkitBoxOrient&quot;:&quot;&quot;,&quot;webkitBoxPack&quot;:&quot;&quot;,&quot;webkitBoxReflect&quot;:&quot;&quot;,&quot;webkitBoxShadow&quot;:&quot;&quot;,&quot;webkitBoxSizing&quot;:&quot;&quot;,&quot;webkitClipPath&quot;:&quot;&quot;,&quot;webkitColumnBreakAfter&quot;:&quot;&quot;,&quot;webkitColumnBreakBefore&quot;:&quot;&quot;,&quot;webkitColumnBreakInside&quot;:&quot;&quot;,&quot;webkitColumnCount&quot;:&quot;&quot;,&quot;webkitColumnGap&quot;:&quot;&quot;,&quot;webkitColumnRule&quot;:&quot;&quot;,&quot;webkitColumnRuleColor&quot;:&quot;&quot;,&quot;webkitColumnRuleStyle&quot;:&quot;&quot;,&quot;webkitColumnRuleWidth&quot;:&quot;&quot;,&quot;webkitColumnSpan&quot;:&quot;&quot;,&quot;webkitColumnWidth&quot;:&quot;&quot;,&quot;webkitColumns&quot;:&quot;&quot;,&quot;webkitFilter&quot;:&quot;&quot;,&quot;webkitFlex&quot;:&quot;&quot;,&quot;webkitFlexBasis&quot;:&quot;&quot;,&quot;webkitFlexDirection&quot;:&quot;&quot;,&quot;webkitFlexFlow&quot;:&quot;&quot;,&quot;webkitFlexGrow&quot;:&quot;&quot;,&quot;webkitFlexShrink&quot;:&quot;&quot;,&quot;webkitFlexWrap&quot;:&quot;&quot;,&quot;webkitFontFeatureSettings&quot;:&quot;&quot;,&quot;webkitFontSizeDelta&quot;:&quot;&quot;,&quot;webkitFontSmoothing&quot;:&quot;&quot;,&quot;webkitHighlight&quot;:&quot;&quot;,&quot;webkitHyphenateCharacter&quot;:&quot;&quot;,&quot;webkitJustifyContent&quot;:&quot;&quot;,&quot;webkitLineBreak&quot;:&quot;&quot;,&quot;webkitLineClamp&quot;:&quot;&quot;,&quot;webkitLocale&quot;:&quot;&quot;,&quot;webkitLogicalHeight&quot;:&quot;&quot;,&quot;webkitLogicalWidth&quot;:&quot;&quot;,&quot;webkitMarginAfter&quot;:&quot;&quot;,&quot;webkitMarginBefore&quot;:&quot;&quot;,&quot;webkitMarginEnd&quot;:&quot;&quot;,&quot;webkitMarginStart&quot;:&quot;&quot;,&quot;webkitMask&quot;:&quot;&quot;,&quot;webkitMaskBoxImage&quot;:&quot;&quot;,&quot;webkitMaskBoxImageOutset&quot;:&quot;&quot;,&quot;webkitMaskBoxImageRepeat&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSlice&quot;:&quot;&quot;,&quot;webkitMaskBoxImageSource&quot;:&quot;&quot;,&quot;webkitMaskBoxImageWidth&quot;:&quot;&quot;,&quot;webkitMaskClip&quot;:&quot;&quot;,&quot;webkitMaskComposite&quot;:&quot;&quot;,&quot;webkitMaskImage&quot;:&quot;&quot;,&quot;webkitMaskOrigin&quot;:&quot;&quot;,&quot;webkitMaskPosition&quot;:&quot;&quot;,&quot;webkitMaskPositionX&quot;:&quot;&quot;,&quot;webkitMaskPositionY&quot;:&quot;&quot;,&quot;webkitMaskRepeat&quot;:&quot;&quot;,&quot;webkitMaskRepeatX&quot;:&quot;&quot;,&quot;webkitMaskRepeatY&quot;:&quot;&quot;,&quot;webkitMaskSize&quot;:&quot;&quot;,&quot;webkitMaxLogicalHeight&quot;:&quot;&quot;,&quot;webkitMaxLogicalWidth&quot;:&quot;&quot;,&quot;webkitMinLogicalHeight&quot;:&quot;&quot;,&quot;webkitMinLogicalWidth&quot;:&quot;&quot;,&quot;webkitOpacity&quot;:&quot;&quot;,&quot;webkitOrder&quot;:&quot;&quot;,&quot;webkitPaddingAfter&quot;:&quot;&quot;,&quot;webkitPaddingBefore&quot;:&quot;&quot;,&quot;webkitPaddingEnd&quot;:&quot;&quot;,&quot;webkitPaddingStart&quot;:&quot;&quot;,&quot;webkitPerspective&quot;:&quot;&quot;,&quot;webkitPerspectiveOrigin&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginX&quot;:&quot;&quot;,&quot;webkitPerspectiveOriginY&quot;:&quot;&quot;,&quot;webkitPrintColorAdjust&quot;:&quot;&quot;,&quot;webkitRtlOrdering&quot;:&quot;&quot;,&quot;webkitRubyPosition&quot;:&quot;&quot;,&quot;webkitShapeImageThreshold&quot;:&quot;&quot;,&quot;webkitShapeMargin&quot;:&quot;&quot;,&quot;webkitShapeOutside&quot;:&quot;&quot;,&quot;webkitTapHighlightColor&quot;:&quot;&quot;,&quot;webkitTextCombine&quot;:&quot;&quot;,&quot;webkitTextDecorationsInEffect&quot;:&quot;&quot;,&quot;webkitTextEmphasis&quot;:&quot;&quot;,&quot;webkitTextEmphasisColor&quot;:&quot;&quot;,&quot;webkitTextEmphasisPosition&quot;:&quot;&quot;,&quot;webkitTextEmphasisStyle&quot;:&quot;&quot;,&quot;webkitTextFillColor&quot;:&quot;&quot;,&quot;webkitTextOrientation&quot;:&quot;&quot;,&quot;webkitTextSecurity&quot;:&quot;&quot;,&quot;webkitTextSizeAdjust&quot;:&quot;&quot;,&quot;webkitTextStroke&quot;:&quot;&quot;,&quot;webkitTextStrokeColor&quot;:&quot;&quot;,&quot;webkitTextStrokeWidth&quot;:&quot;&quot;,&quot;webkitTransform&quot;:&quot;&quot;,&quot;webkitTransformOrigin&quot;:&quot;&quot;,&quot;webkitTransformOriginX&quot;:&quot;&quot;,&quot;webkitTransformOriginY&quot;:&quot;&quot;,&quot;webkitTransformOriginZ&quot;:&quot;&quot;,&quot;webkitTransformStyle&quot;:&quot;&quot;,&quot;webkitTransition&quot;:&quot;&quot;,&quot;webkitTransitionDelay&quot;:&quot;&quot;,&quot;webkitTransitionDuration&quot;:&quot;&quot;,&quot;webkitTransitionProperty&quot;:&quot;&quot;,&quot;webkitTransitionTimingFunction&quot;:&quot;&quot;,&quot;webkitUserDrag&quot;:&quot;&quot;,&quot;webkitUserModify&quot;:&quot;&quot;,&quot;webkitUserSelect&quot;:&quot;&quot;,&quot;webkitWritingMode&quot;:&quot;&quot;,&quot;whiteSpace&quot;:&quot;&quot;,&quot;widows&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;willChange&quot;:&quot;&quot;,&quot;wordBreak&quot;:&quot;&quot;,&quot;wordSpacing&quot;:&quot;&quot;,&quot;wordWrap&quot;:&quot;&quot;,&quot;writingMode&quot;:&quot;&quot;,&quot;x&quot;:&quot;&quot;,&quot;y&quot;:&quot;&quot;,&quot;zIndex&quot;:&quot;&quot;,&quot;zoom&quot;:&quot;&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="₹54,900" />
           </attribute>
           <attribute name="wSource">
             <ProcessValue datatype="text" value="" />
@@ -755,28 +755,166 @@
   <view>
     <camerax>0</camerax>
     <cameray>0</cameray>
-    <zoom version="2">1.875</zoom>
+    <zoom version="2">1.25</zoom>
   </view>
   <preconditions />
   <endpoint narrative="" />
-  <stage stageid="9b396775-7cdd-4ed2-8507-8f0d46f167f6" name="Launch Application" type="SubSheetInfo">
-    <display x="-195" y="-105" w="150" h="90" />
-  </stage>
-  <stage stageid="f36b78b5-005a-4f07-a59f-aa93908eb5fa" name="Start" type="Start">
+  <subsheet subsheetid="f9fb8720-e02e-43a1-b371-d755aebe41f0" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c" type="Normal" published="True">
+    <name>Get Colour</name>
+    <view>
+      <camerax>151</camerax>
+      <cameray>11</cameray>
+      <zoom version="2">1.5625</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="b419cc9c-a251-4543-bae9-2834db3d6362" type="Normal" published="False">
+    <name>verification of changes in data</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="28f9b1c6-6054-424e-9178-08227322a2d1" type="Normal" published="False">
+    <name>insert data in DB</name>
+    <view>
+      <camerax>283</camerax>
+      <cameray>78</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="4d598318-d947-4b05-86f8-56e47b59f482" type="Normal" published="False">
+    <name>data verification</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="cc749ef7-995b-43f2-a666-5df08922b0b6" type="Normal" published="True">
+    <name>Launch</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="bd784979-c10d-46cc-b32a-bf58a4370b1a" type="Normal" published="True">
+    <name>Search</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="b6aa6221-31dc-489f-a11d-be11557d507b" type="Normal" published="False">
+    <name>read data</name>
+    <view>
+      <camerax>141</camerax>
+      <cameray>-63</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49" type="Normal" published="True">
+    <name>write data in excel</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="a42d8c73-2824-4fa5-b5d2-413ddb552698" name="Start" type="Start">
     <loginhibit />
     <display x="15" y="-105" />
-    <onsuccess>1f184dc9-35dd-4193-9408-caf9315010eb</onsuccess>
+    <onsuccess>6dff7249-6d07-4ecb-88ba-ce66e1b4ab02</onsuccess>
   </stage>
-  <stage stageid="34b60e59-c45b-44dd-b612-7814d5a4ee4f" name="End" type="End">
+  <stage stageid="6dff7249-6d07-4ecb-88ba-ce66e1b4ab02" name="End" type="End">
     <loginhibit />
     <display x="15" y="90" />
   </stage>
-  <stage stageid="1f184dc9-35dd-4193-9408-caf9315010eb" name="Initialize" type="Navigate">
+  <stage stageid="10c29d4d-8fc6-48b6-9592-30575f07aa1e" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="01ec3686-4f5a-419a-be72-be1a3de47ca6" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>f9fb8720-e02e-43a1-b371-d755aebe41f0</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="68558de2-f4e4-43bd-a1a1-f40fdf256afe" name="Start" type="Start">
+    <subsheetid>f9fb8720-e02e-43a1-b371-d755aebe41f0</subsheetid>
     <loginhibit />
-    <display x="15" y="-45" />
-    <onsuccess>34b60e59-c45b-44dd-b612-7814d5a4ee4f</onsuccess>
+    <display x="15" y="-105" />
+    <onsuccess>2bbb3ffc-db9e-41ef-9fe8-6c41dadbb469</onsuccess>
+  </stage>
+  <stage stageid="2bbb3ffc-db9e-41ef-9fe8-6c41dadbb469" name="End" type="End">
+    <subsheetid>f9fb8720-e02e-43a1-b371-d755aebe41f0</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="1a35618d-5292-40a9-b072-5ed1fb219f06" name="Launch" type="SubSheetInfo">
+    <subsheetid>cc749ef7-995b-43f2-a666-5df08922b0b6</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="f33d37e0-8c6b-442c-bb39-50db52e2079f" name="Start" type="Start">
+    <subsheetid>cc749ef7-995b-43f2-a666-5df08922b0b6</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>6b405542-21cc-4dbc-8836-85611730b96c</onsuccess>
+  </stage>
+  <stage stageid="91334596-ad47-4520-b945-bf367f8d99aa" name="End" type="End">
+    <subsheetid>cc749ef7-995b-43f2-a666-5df08922b0b6</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="2bd09056-8b89-4f1d-a555-e162f5522ad1" name="" type="Note">
+    <subsheetid>f9fb8720-e02e-43a1-b371-d755aebe41f0</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="08019990-4ebf-4666-8533-ad241d685a3a" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="6b405542-21cc-4dbc-8836-85611730b96c" name="Navigate1" type="Navigate">
+    <subsheetid>cc749ef7-995b-43f2-a666-5df08922b0b6</subsheetid>
+    <loginhibit />
+    <display x="15" y="-30" />
+    <onsuccess>91334596-ad47-4520-b945-bf367f8d99aa</onsuccess>
     <step>
-      <element id="7cd0e2da-c81d-44d2-bd16-804ac8da3c1b" />
+      <element id="4f5b4a8f-de0b-4381-9ffb-efccc4937194" />
       <action>
         <id>Launch</id>
         <arguments>
@@ -805,5 +943,1088 @@
         </outputs>
       </action>
     </step>
+  </stage>
+  <stage stageid="d5780272-b61c-47e2-9709-9ad5cf6f4023" name="Search" type="SubSheetInfo">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="c7698ec8-cb1d-41e0-9060-c92ada4ed723" name="Start" type="Start">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>4807109a-6bed-4c69-b4c4-c49dd45a261e</onsuccess>
+  </stage>
+  <stage stageid="65f63d09-9331-4a42-b407-f4791780dc0e" name="End" type="End">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <loginhibit />
+    <display x="15" y="135" />
+  </stage>
+  <stage stageid="4807109a-6bed-4c69-b4c4-c49dd45a261e" name="click on search bar" type="Navigate">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <loginhibit />
+    <display x="15" y="-30" />
+    <onsuccess>91f0ed81-6d67-47b3-8abc-0a8095fcdbac</onsuccess>
+    <step>
+      <element id="8d166afa-72fc-4bcb-ad7c-ee3107322f6d" />
+      <action>
+        <id>WebClick</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="91f0ed81-6d67-47b3-8abc-0a8095fcdbac" name="enter product name" type="Navigate">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <loginhibit />
+    <display x="15" y="30" />
+    <onsuccess>74c1864e-dd7a-45db-bfd2-8d1f4334a65e</onsuccess>
+    <step>
+      <element id="8d166afa-72fc-4bcb-ad7c-ee3107322f6d" />
+      <action>
+        <id>WebSendKeys</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>newtext</id>
+            <value>"  iphone11"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="74c1864e-dd7a-45db-bfd2-8d1f4334a65e" name="click on search button" type="Navigate">
+    <subsheetid>bd784979-c10d-46cc-b32a-bf58a4370b1a</subsheetid>
+    <loginhibit />
+    <display x="15" y="75" />
+    <onsuccess>65f63d09-9331-4a42-b407-f4791780dc0e</onsuccess>
+    <step>
+      <element id="1cc1c016-1614-43b9-8c88-03a6b5852dd8" />
+      <action>
+        <id>WebSendKeys</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{ENTER}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="d006019b-b2a9-43c7-b28c-9d84ba4736dd" name="read data" type="SubSheetInfo">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <display x="-150" y="-165" w="150" h="90" />
+  </stage>
+  <stage stageid="05ff6486-9a30-4b41-a5a9-879be20f29bf" name="Start" type="Start">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="105" y="-195" />
+    <onsuccess>9bce71ff-2452-43fd-a1c6-e6e7e7c2eabb</onsuccess>
+  </stage>
+  <stage stageid="eba58963-c3c8-42b5-ba31-9a50f51b47be" name="End" type="End">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="105" y="75" />
+  </stage>
+  <stage stageid="503c2a24-7366-4dc9-87e2-80d7a60938f7" name="initial Xpath" type="Data">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="-285" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[3]/DIV[2]/DIV[1]/DIV[2]/DIV[</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="bf0a3824-19bd-419d-8748-6ba6bf59fc48" name="final Xpath for name" type="Data">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="-195" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/DIV[1]/DIV[1]</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="65669832-39f1-4676-82f0-8ccce64a6ca6" name="final Xpath for price" type="Data">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="-195" y="0" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e65aa4e7-52aa-4d42-808f-42c733e685c5" name="final Xpath for ratings" type="Data">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="-195" y="60" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/DIV[1]/DIV[2]/SPAN[1]/DIV[1]</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9bce71ff-2452-43fd-a1c6-e6e7e7c2eabb" name="Reader1" type="Read">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="105" y="-135" />
+    <onsuccess>44efe492-7ef1-4ab4-9196-e2916d17db45</onsuccess>
+    <step stage="flipkart details.name">
+      <element id="64c97115-9e79-4f9c-ba79-8280613e9db9">
+        <elementparameter>
+          <name>wXPath</name>
+          <expression>[initial Xpath]&amp;[count]&amp;[final Xpath for name]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>WebGetValue</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step stage="flipkart details.price">
+      <element id="178000f9-992e-40ac-b541-ec0d84ae7180">
+        <elementparameter>
+          <name>wXPath</name>
+          <expression>[initial Xpath]&amp;[count]&amp;[final Xpath for price]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>WebGetValue</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step stage="flipkart details.ratings">
+      <element id="79f7a6d2-55c2-49c0-afa9-7787e95887df">
+        <elementparameter>
+          <name>wXPath</name>
+          <expression>[initial Xpath]&amp;[count]&amp;[final Xpath for ratings]
+</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>WebGetValue</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="568429be-9907-42b1-a66b-626ab1741e68" name="flipkart details" type="Collection">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="285" y="-135" />
+    <datatype>collection</datatype>
+    <alwaysinit />
+    <collectioninfo>
+      <field name="name" type="text" />
+      <field name="price" type="text" />
+      <field name="ratings" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="name" type="text" value="" />
+        <field name="price" type="text" value="" />
+        <field name="ratings" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="30e0d69a-7ef4-4f81-8cc7-5eaf2bf914c7" name="count" type="Data">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="-300" y="0" />
+    <datatype>number</datatype>
+    <initialvalue>2</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5f9a8391-2ace-4e3c-985c-cc97f6955d2e" name="increment count" type="Calculation">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="180" y="0" />
+    <onsuccess>a89c27e1-cf88-40a2-af5c-d35af11c6729</onsuccess>
+    <calculation expression="[count]+1" stage="count" />
+  </stage>
+  <stage stageid="44efe492-7ef1-4ab4-9196-e2916d17db45" name="check count" type="Decision">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit />
+    <display x="105" y="0" />
+    <decision expression="[count]&lt;=7" />
+    <ontrue>5f9a8391-2ace-4e3c-985c-cc97f6955d2e</ontrue>
+    <onfalse>eba58963-c3c8-42b5-ba31-9a50f51b47be</onfalse>
+  </stage>
+  <stage stageid="a89c27e1-cf88-40a2-af5c-d35af11c6729" name="Collections::Add Row" type="Action">
+    <subsheetid>b6aa6221-31dc-489f-a11d-be11557d507b</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="195" y="-135" />
+    <inputs>
+      <input type="text" name="Collection Name" friendlyname="Collection Name" narrative="The name of the collection to act upon" expr="&quot;flipkart details&quot;" />
+    </inputs>
+    <onsuccess>9bce71ff-2452-43fd-a1c6-e6e7e7c2eabb</onsuccess>
+    <resource object="Blueprism.AutomateProcessCore.clsCollectionActions" action="Add Row" />
+  </stage>
+  <stage stageid="d3619627-4948-4361-a6c0-93e1671199bc" name="write data in excel" type="SubSheetInfo">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <narrative>writing collection data info in excel sheet
+</narrative>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="80a7c762-659f-437c-95a2-9c874891e74d" name="Start" type="Start">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit />
+    <display x="15" y="-180" />
+    <onsuccess>a3f56151-2ca2-4803-b52a-c59f33fdbe26</onsuccess>
+  </stage>
+  <stage stageid="44664337-86cb-4153-ba32-31d617433267" name="End" type="End">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit />
+    <display x="15" y="135" />
+  </stage>
+  <stage stageid="a3f56151-2ca2-4803-b52a-c59f33fdbe26" name="create instamce" type="Action">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-120" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle1" />
+    </outputs>
+    <onsuccess>c93cf6b7-b96b-442f-a728-e53a3b187a01</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="c93cf6b7-b96b-442f-a728-e53a3b187a01" name="open workbook" type="Action">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-60" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle1]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\NIvas\Desktop\FlipkartData.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name1" />
+    </outputs>
+    <onsuccess>4ccd58f9-3bde-4aa8-8ae5-70cffb21776f</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="40001986-80e9-4e7c-95f3-7409cc05de7f" name="Write collection" type="Action">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="15" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the specified collection should be written. The default of zero indicates the currently active instance." expr="[handle1]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook within which the data should be written. The default empty value indicates the current workbook within the specified instance." expr="[Workbook Name1]" />
+      <input type="collection" name="Collection" friendlyname="Collection" narrative="The collection containing the data which should be written to the worksheet." expr="[flipkart details]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet on which the given data should be written. The default empty value indicates the current sheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+      <input type="text" name="Cell Reference" friendlyname="Cell Reference" narrative="The reference at which the collection should be written." expr="&quot;A1&quot;" />
+      <input type="flag" name="Include Column Names" friendlyname="Include Column Names" narrative="True to indicate that the column names from the collection should be written out as the first row; False to ignore the column names and just write out the data." expr="True" />
+    </inputs>
+    <onsuccess>44664337-86cb-4153-ba32-31d617433267</onsuccess>
+    <resource object="MS Excel VBO" action="Write Collection" />
+  </stage>
+  <stage stageid="0ab41d88-8733-495d-b72d-6721c1904cb8" name="Workbook Name1" type="Data">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <display x="180" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0bc22506-6064-4140-9491-4a1b086aa1ee" name="read data" type="SubSheet">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit />
+    <display x="135" y="0" />
+    <onsuccess>d71528a4-3425-44dd-8c6b-ff5f3d41c1af</onsuccess>
+    <processid>b6aa6221-31dc-489f-a11d-be11557d507b</processid>
+  </stage>
+  <stage stageid="4ccd58f9-3bde-4aa8-8ae5-70cffb21776f" name="Anchor1" type="Anchor">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit />
+    <display x="135" y="-30" w="10" h="10" />
+    <onsuccess>0bc22506-6064-4140-9491-4a1b086aa1ee</onsuccess>
+  </stage>
+  <stage stageid="d71528a4-3425-44dd-8c6b-ff5f3d41c1af" name="Anchor2" type="Anchor">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <loginhibit />
+    <display x="135" y="30" w="10" h="10" />
+    <onsuccess>40001986-80e9-4e7c-95f3-7409cc05de7f</onsuccess>
+  </stage>
+  <stage stageid="9633d390-933a-4841-b78c-1c228c0bfcd4" name="data verification" type="SubSheetInfo">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="ebfd713d-1a42-4b72-8ecf-1c04fa2f7d53" name="Start" type="Start">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit />
+    <display x="15" y="-135" />
+    <onsuccess>f4a9d0ca-093e-4fd1-887a-24c28fa2e866</onsuccess>
+  </stage>
+  <stage stageid="dd973423-0f16-4d45-aec6-60ff62f22f7c" name="End" type="End">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit />
+    <display x="15" y="165" />
+  </stage>
+  <stage stageid="f4a9d0ca-093e-4fd1-887a-24c28fa2e866" name="MS Excel VBO::Create Instance" type="Action">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-90" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>f79eac8a-32c9-4c0c-91e6-bd85a7184a6c</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="43b30457-144b-4074-b109-8cd9b7ded792" name="handle" type="Data">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="150" y="-90" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f79eac8a-32c9-4c0c-91e6-bd85a7184a6c" name="MS Excel VBO::Open Workbook" type="Action">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\NIvas\Desktop\FlipkartData.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>f0c69409-1400-44ee-a0db-5b960c79dc77</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="7bd758e4-1a7f-4e19-8f21-b8d92de5e7a9" name="Workbook Name" type="Data">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="150" y="-30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f0c69409-1400-44ee-a0db-5b960c79dc77" name="MS Excel VBO::Get Number Of Rows" type="Action">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the number of rows is required. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook on which the number of rows is required. The default empty text value indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet on which the number of rows is required. The default empty text value indicates the currently active sheet on the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="number" name="Number of rows" friendlyname="Number of rows" narrative="The number of rows." stage="Number of rows" />
+    </outputs>
+    <onsuccess>ac5bdb14-71fc-4fa4-8a4d-d4e6113345e7</onsuccess>
+    <resource object="MS Excel VBO" action="Get Number Of Rows" />
+  </stage>
+  <stage stageid="677bb107-b4df-4cb4-9ee5-aaf212af1298" name="Number of rows" type="Data">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="150" y="30" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ac5bdb14-71fc-4fa4-8a4d-d4e6113345e7" name="Decision1" type="Decision">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit />
+    <display x="15" y="75" />
+    <decision expression="[Number of rows] = 0" />
+    <ontrue>c041d885-9ddf-4d41-a328-e124cdc561aa</ontrue>
+    <onfalse>c2e21a10-25d2-4d48-8a60-67026d37a949</onfalse>
+  </stage>
+  <stage stageid="c041d885-9ddf-4d41-a328-e124cdc561aa" name="Exception1" type="Exception">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="150" y="75" />
+    <exception localized="yes" type="System" detail="&quot;Rows are empty&quot;" />
+  </stage>
+  <stage stageid="c2e21a10-25d2-4d48-8a60-67026d37a949" name="Decision2" type="Decision">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit />
+    <display x="15" y="120" />
+    <decision expression="[Number of rows] - 1 = [no of products]" />
+    <ontrue>dd973423-0f16-4d45-aec6-60ff62f22f7c</ontrue>
+    <onfalse>71dcce4e-0ae6-435f-8877-b408d4fb1205</onfalse>
+  </stage>
+  <stage stageid="f686b18b-722f-4843-9deb-73799729abad" name="no of products" type="Data">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <loginhibit />
+    <display x="-180" y="60" />
+    <datatype>number</datatype>
+    <initialvalue>7</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="71dcce4e-0ae6-435f-8877-b408d4fb1205" name="Exception2" type="Exception">
+    <subsheetid>4d598318-d947-4b05-86f8-56e47b59f482</subsheetid>
+    <display x="150" y="120" />
+    <exception localized="yes" type="System" detail="&quot;Less data returned&quot;" />
+  </stage>
+  <stage stageid="6135a325-75a7-4ea5-97dd-b0f1450c05e8" name="Get Colour" type="SubSheetInfo">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="01cfcece-8765-422f-a508-aac100fe91b6" name="Start" type="Start">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="15" y="-180" />
+    <onsuccess>7b80b59a-fae1-4f01-98c6-f40a6dad6d05</onsuccess>
+  </stage>
+  <stage stageid="25e9f6b2-fbcd-4e5f-8525-d09e82c5792f" name="End" type="End">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="-45" y="165" />
+  </stage>
+  <stage stageid="7b80b59a-fae1-4f01-98c6-f40a6dad6d05" name="MS Excel VBO::Create Instance" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-120" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>b43daf3c-9069-4db8-ad96-ee0b4fa5121f</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="04c7da39-28fe-40f9-b794-633ffdf1044e" name="handle" type="Data">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="300" y="-120" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b43daf3c-9069-4db8-ad96-ee0b4fa5121f" name="MS Excel VBO::Open Workbook" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-75" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\NIvas\Desktop\FlipkartData.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>ccdcb16a-a5fa-49cd-b5c3-4a77d6be47ed</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="6559c076-9f3c-423d-ae7d-c57eedb64233" name="Workbook Name" type="Data">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="405" y="-90" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ccdcb16a-a5fa-49cd-b5c3-4a77d6be47ed" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="InputCollection" />
+    </outputs>
+    <onsuccess>f2dd3f47-e3fd-4f96-94b3-c68596639b4f</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="c0a3733f-04b6-4575-bc0c-047b03d6f8c0" name="InputCollection" type="Collection">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="-180" y="0" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f2dd3f47-e3fd-4f96-94b3-c68596639b4f" name="Work Queues::Add To Queue" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <narrative>The Data collection contains the items to be added to the queue. The collection may contain single or multiple rows, with each representing an item to be added.
+
+If there is a failure during the process, the queue will be unchanged - i.e. no rows will be loaded even if the error occurred on the last one.
+
+If Defer Until is specified, the items will not be available to be worked until then. Otherwise, they are available immediately.
+
+If the queue has a key field defined, an item added has key data longer than the maximum permitted 255 characters, an error will occur</narrative>
+    <display x="15" y="15" />
+    <inputs>
+      <input type="text" name="Queue Name" friendlyname="Queue Name" narrative="The name of the queue to add items to" expr="&quot;FlipkartQueue&quot;" />
+      <input type="collection" name="Data" friendlyname="Data" narrative="A collection containing the data, one row for each item to be added" expr="[InputCollection]" />
+      <input type="datetime" name="Defer Until" friendlyname="Defer Until" narrative="Optionally, the date/time the new item(s) should be deferred until" expr="" />
+      <input type="number" name="Priority" friendlyname="Priority" narrative="Optionally, the priority for the new item(s). Lower numbers represent higher priorities. The default is 0." expr="" />
+      <input type="text" name="Tags" friendlyname="Tags" narrative="Optionally, a semi-colon-separated set of tags to apply to the queue item(s)" expr="" />
+      <input type="text" name="Status" friendlyname="Status" narrative="Optionally, the initial status required of the work queue item(s) " expr="" />
+      <input type="number" name="Batch Size" friendlyname="Batch Size" narrative="Optionally, the batch size to use when adding many items to the queue.  A Value of 0 will process all items in one batch.  An empty field will use the default batch size of 1000." expr="">
+        <validator type="BluePrism.AutomateProcessCore.RangeParameterValidation" parameter="0:25000" />
+      </input>
+    </inputs>
+    <outputs>
+      <output type="collection" name="Item IDs" friendlyname="Item IDs" narrative="The IDs of the items which have been added to the queue, in the order of the collection of data passed that was input" stage="" />
+    </outputs>
+    <onsuccess>2d272c9d-01d4-4f3a-a4d3-24c9432eb04c</onsuccess>
+    <resource object="Blueprism.Automate.clsWorkQueuesActions" action="Add To Queue" />
+  </stage>
+  <stage stageid="2d272c9d-01d4-4f3a-a4d3-24c9432eb04c" name="Work Queues::Get Next Item" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <narrative>This action gets the next item to be worked from the queue, returning its details and locking it so no other case can work it.
+
+Items with higher priorities (lower numerical value) are processed first. Where the priority is the same, the next item is the one that has been in the queue the longest,  is not already locked, and is not already completed.
+
+The Item ID returned is used to make further calls to update the work status for that item. It may be empty, in which case there are no items available. This can mean either a) the queue is empty, or b) the queue is not running. This mechanism can be used to cleanly stop all processes working a particular queue at the end of the next case. Items that have a 'deferred' time set will not be returned unless that time has been reached.</narrative>
+    <display x="120" y="15" />
+    <inputs>
+      <input type="text" name="Queue Name" friendlyname="Queue Name" narrative="The name of the queue" expr="&quot;FlipkartQueue&quot;" />
+      <input type="text" name="Key Filter" friendlyname="Key Filter" narrative="Optionally, a key value to filter by. Only items with this key value will be considered." expr="" />
+      <input type="text" name="Tag Filter" friendlyname="Tag Filter" narrative="Optionally, a tag mask to filter by. This can consist of any number of tag searches - each term can be separated by a semi-colon and they are all applied to the search (ie. they are AND'ed terms not OR'ed terms). For example, &quot;Account: Joint; -Balance: Overdrawn; Card: *Visa*&quot; will include any items which match all the terms, ie. every item must have an 'Account: Joint' tag applied, no item can have a 'Balance: Overdrawn' tag applied, every item must have a tag applied which starts with 'Card: ' and then contains the text 'Visa'." expr="" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Item ID" friendlyname="Item ID" narrative="The ID of the item retrieved - empty if there are none available." stage="Item ID" />
+      <output type="collection" name="Data" friendlyname="Data" narrative="The data associated with the item - a single collection row." stage="single data" />
+      <output type="text" name="Status" friendlyname="Status" narrative="The status of the item." stage="" />
+      <output type="number" name="Attempts" friendlyname="Attempts" narrative="The number of attempts already made to work this item." stage="" />
+    </outputs>
+    <onsuccess>39770e63-54c0-4711-97fa-8c0028fc1dc3</onsuccess>
+    <resource object="Blueprism.Automate.clsWorkQueuesActions" action="Get Next Item" />
+  </stage>
+  <stage stageid="9534e1f5-149a-4a9f-9d20-d069d41d5762" name="Item ID" type="Data">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="420" y="-45" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="39770e63-54c0-4711-97fa-8c0028fc1dc3" name="item id exiss" type="Decision">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="120" y="105" />
+    <decision expression="[Item ID] &lt;&gt; &quot;&quot;" />
+    <ontrue>c1b69ac1-0932-443f-8989-f409785733ba</ontrue>
+    <onfalse>56bd1726-e0eb-4fd2-972b-cc24a8eff5ee</onfalse>
+  </stage>
+  <stage stageid="c1b69ac1-0932-443f-8989-f409785733ba" name="Calc stop" type="Calculation">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="195" y="105" />
+    <onsuccess>6abf60bb-d97e-4c28-86c6-1825cf3335db</onsuccess>
+    <calculation expression="InStr([single data.name], &quot;,&quot;)" stage="stop" />
+  </stage>
+  <stage stageid="595e1c75-4fee-424a-a4fd-77a7221828bf" name="stop" type="Data">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="420" y="30" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6abf60bb-d97e-4c28-86c6-1825cf3335db" name="get colour" type="Calculation">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="270" y="105" />
+    <onsuccess>e000e295-79e5-40ad-b84c-aad426f43ed0</onsuccess>
+    <calculation expression="Mid([single data.name], 18, [stop]-18)" stage="color" />
+  </stage>
+  <stage stageid="e000e295-79e5-40ad-b84c-aad426f43ed0" name="colour added" type="Calculation">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="270" y="60" />
+    <onsuccess>8dbf0851-a957-4506-a733-9f08f2e94ce7</onsuccess>
+    <calculation expression="[color]" stage="single data.color" />
+  </stage>
+  <stage stageid="e1905f20-2b43-430b-a88c-026c4c55d459" name="output collection" type="Collection">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit />
+    <display x="-165" y="75" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5775f4b3-4b57-4a3a-9ed6-f47772a2291a" name="verification of changes in data" type="SubSheetInfo">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="17c792b2-abd8-4c81-8c29-7edef5650772" name="Start" type="Start">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit />
+    <display x="15" y="-165" />
+    <onsuccess>91e8ef2f-a152-4634-976b-f8abc871ab8e</onsuccess>
+  </stage>
+  <stage stageid="bfcd9342-bd31-4e85-ad58-b420e6e1b8bd" name="End" type="End">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit />
+    <display x="15" y="195" />
+  </stage>
+  <stage stageid="8dbf0851-a957-4506-a733-9f08f2e94ce7" name="Utility - Collection Manipulation::Append Rows to Collection" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="270" y="15" />
+    <inputs>
+      <input type="collection" name="Main Collection" friendlyname="Main Collection" narrative="The collection to append to." expr="[output collection]" />
+      <input type="collection" name="Collection to Append" friendlyname="Collection to Append" narrative="The collection to append." expr="[single data]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Combined Collection" friendlyname="Combined Collection" narrative="The combined collection." stage="output collection" />
+    </outputs>
+    <onsuccess>8c7b9a5f-19a6-4692-89ea-bb4d61d84d99</onsuccess>
+    <resource object="Utility - Collection Manipulation" action="Append Rows to Collection" />
+  </stage>
+  <stage stageid="8c7b9a5f-19a6-4692-89ea-bb4d61d84d99" name="Work Queues::Mark Completed" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <narrative>Marks the item as completed, by updating the Completed timestamp and setting Locked to null. The item must be 'owned' by the calling process - i.e. it must have been retrieved using Get Next Item.</narrative>
+    <display x="195" y="15" />
+    <inputs>
+      <input type="text" name="Item ID" friendlyname="Item ID" narrative="The ID of the item to mark" expr="[Item ID]" />
+    </inputs>
+    <onsuccess>2d272c9d-01d4-4f3a-a4d3-24c9432eb04c</onsuccess>
+    <resource object="Blueprism.Automate.clsWorkQueuesActions" action="Mark Completed" />
+  </stage>
+  <stage stageid="56bd1726-e0eb-4fd2-972b-cc24a8eff5ee" name="MS Excel VBO::Write Collection" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="30" y="105" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the specified collection should be written. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="collection" name="Collection" friendlyname="Collection" narrative="The collection containing the data which should be written to the worksheet." expr="[output collection]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook within which the data should be written. The default empty value indicates the current workbook within the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet on which the given data should be written. The default empty value indicates the current sheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+      <input type="text" name="Cell Reference" friendlyname="Cell Reference" narrative="The reference at which the collection should be written." expr="&quot;A1&quot;" />
+      <input type="flag" name="Include Column Names" friendlyname="Include Column Names" narrative="True to indicate that the column names from the collection should be written out as the first row; False to ignore the column names and just write out the data." expr="True" />
+    </inputs>
+    <onsuccess>60cc9137-86b8-430f-85a3-831d373eb87b</onsuccess>
+    <resource object="MS Excel VBO" action="Write Collection" />
+  </stage>
+  <stage stageid="60cc9137-86b8-430f-85a3-831d373eb87b" name="MS Excel VBO::Close Workbook" type="Action">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-45" y="105" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the workbook which should be closed resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which should be closed." expr="[Workbook Name]" />
+      <input type="flag" name="Save Data" friendlyname="Save Data" narrative="True to save the data before closing the workbook; The default of False will discard any changes before closing the workbook." expr="True" />
+    </inputs>
+    <onsuccess>25e9f6b2-fbcd-4e5f-8525-d09e82c5792f</onsuccess>
+    <resource object="MS Excel VBO" action="Close Workbook" />
+  </stage>
+  <stage stageid="d7a6d0af-8c0a-45f6-bdc5-77ec2290c46a" name="color" type="Data">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="435" y="75" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="39fb195b-318e-433d-b225-2e24a2f03052" name="single data" type="Collection">
+    <subsheetid>ef2f37f2-3e2d-46d0-b7a6-0e90de02a33c</subsheetid>
+    <display x="420" y="-15" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="91e8ef2f-a152-4634-976b-f8abc871ab8e" name="MS Excel VBO::Create Instance" type="Action">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-120" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>4c5625f5-434e-4598-892a-9a0a12f489a1</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="ab40d3f0-28a1-4548-93fe-f9542ffc1dec" name="handle" type="Data">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <display x="90" y="-105" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4c5625f5-434e-4598-892a-9a0a12f489a1" name="MS Excel VBO::Open Workbook" type="Action">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-75" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\NIvas\Desktop\FlipkartData.xlsx&quot;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>90119266-e35d-42e6-8ef0-170fc7b264e4</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="d2010094-8702-471b-8f77-54bb6ec496a1" name="Workbook Name" type="Data">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <display x="90" y="-45" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="90119266-e35d-42e6-8ef0-170fc7b264e4" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="Data" />
+    </outputs>
+    <onsuccess>66913e37-162c-49b9-b293-d2e268ac25f7</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="9546806d-a7d4-4e97-b185-060f85d741a4" name="Data" type="Collection">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <display x="90" y="15" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="66913e37-162c-49b9-b293-d2e268ac25f7" name="Utility - Collection Manipulation::Copy Rows" type="Action">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="15" />
+    <inputs>
+      <input type="number" name="Start Row" friendlyname="Start Row" narrative="The row index to start copying from. The index is from 0 to N-1 (where N is the total number of rows in the collection)." expr="0" />
+      <input type="number" name="Number of Rows to Copy" friendlyname="Number of Rows to Copy" narrative="The number of rows to copy." expr="1" />
+      <input type="collection" name="Source Collection" friendlyname="Source Collection" narrative="The collection to copy." expr="[Data]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Output Collection" friendlyname="Output Collection" narrative="The copied collection." stage="single row" />
+    </outputs>
+    <onsuccess>48728c96-3b5a-407c-a686-578b18613fab</onsuccess>
+    <resource object="Utility - Collection Manipulation" action="Copy Rows" />
+  </stage>
+  <stage stageid="8302123b-dce3-443a-b950-0d6940b7c5fe" name="single row" type="Collection">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit />
+    <display x="210" y="15" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <singlerow />
+      <field name="name" type="text" />
+      <field name="price" type="text" />
+      <field name="ratings" type="text" />
+      <field name="color" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <singlerow />
+      <row>
+        <field name="name" type="text" value="" />
+        <field name="price" type="text" value="" />
+        <field name="ratings" type="text" value="" />
+        <field name="color" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="872c894a-53f7-4d7c-bac7-7d1cf2511d36" name="product name" type="Data">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit />
+    <display x="-270" y="15" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">Apple iPhone 11 (White, 64 GB) (Includes EarPods, Power Adapter)</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="48728c96-3b5a-407c-a686-578b18613fab" name="first product name" type="Decision">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <loginhibit />
+    <display x="15" y="75" />
+    <decision expression="[product name] = [single row.name]" />
+    <ontrue>bfcd9342-bd31-4e85-ad58-b420e6e1b8bd</ontrue>
+    <onfalse>3c1e1e5b-d500-4788-ab34-358dabb33e90</onfalse>
+  </stage>
+  <stage stageid="3c1e1e5b-d500-4788-ab34-358dabb33e90" name="Exception3" type="Exception">
+    <subsheetid>b419cc9c-a251-4543-bae9-2834db3d6362</subsheetid>
+    <display x="120" y="75" />
+    <exception localized="yes" type="System" detail="&quot;name not matched&quot;" />
+  </stage>
+  <stage stageid="0cd38574-8b4d-4889-b964-15b9dbb4694e" name="insert data in DB" type="SubSheetInfo">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="82aab9c4-e45c-4ae9-a878-14aabd47517b" name="Start" type="Start">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="15" y="-135" />
+    <onsuccess>87541c94-8d8a-4eee-809d-b89600f6e7a2</onsuccess>
+  </stage>
+  <stage stageid="d86622b0-9bd8-4cbb-93fb-be65b7a237b3" name="End" type="End">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="135" y="195" />
+  </stage>
+  <stage stageid="87541c94-8d8a-4eee-809d-b89600f6e7a2" name="write data in excel" type="SubSheet">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="150" y="-135" />
+    <onsuccess>a737f248-696f-4e08-a162-c0f6f3fb262f</onsuccess>
+    <processid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</processid>
+  </stage>
+  <stage stageid="a737f248-696f-4e08-a162-c0f6f3fb262f" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="-135" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle1]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name1]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="Data" />
+    </outputs>
+    <onsuccess>d889f4b9-7f4f-4c1a-a1fc-08d9feb44fb9</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="d6ed9e60-df56-4ad8-a93c-dbde2d1d9fea" name="Data" type="Collection">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="375" y="-105" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="name" type="text" />
+      <field name="price" type="text" />
+      <field name="ratings" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="name" type="text" value="" />
+        <field name="price" type="text" value="" />
+        <field name="ratings" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="d889f4b9-7f4f-4c1a-a1fc-08d9feb44fb9" name="Data - SQL Server::Set Connection" type="Action">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="-90" />
+    <inputs>
+      <input type="text" name="Server" friendlyname="Server" narrative="The name of the server and, if necessary, instance name of the SQL Server instance to connect to" expr="&quot;(LocalDB)\BluePrismLocalDB&quot;" />
+      <input type="text" name="Database" friendlyname="Database" narrative="The name of the database to connect to" expr="&quot;MySampleDB&quot;" />
+      <input type="text" name="User" friendlyname="User" narrative="If appropriate, the login name to use to connect to SQL Server. If left empty, windows authentication using the current user will be used instead of SQL Server authentication" expr="" />
+      <input type="password" name="Password" friendlyname="Password" narrative="If appropriate, the password to use with the above login name to access SQL Server. Unused for windows authentication" expr="" />
+    </inputs>
+    <onsuccess>374ef7dc-9dfc-4542-a0c3-4fc857744b98</onsuccess>
+    <resource object="Data - SQL Server" action="Set Connection" />
+  </stage>
+  <stage stageid="a1084877-900a-4303-9680-94994d4d5835" name="Data - SQL Server::Execute" type="Action">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="435" y="120" />
+    <inputs>
+      <input type="text" name="Query" friendlyname="Query" narrative="The SQL query to use to perform this action" expr="&quot;insert into [MySampleDB].[dbo].[flipkartData1] values (&#xA;'&quot;&amp;[Data.name]&amp;&quot;','&quot;&amp;[Data.price]&amp;&quot;','&quot;&amp;[Data.ratings]&amp;&quot;'&#xA;)&quot;" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="Success" friendlyname="Success" narrative="Flag indicating success (True) or failure (False)" stage="Success" />
+      <output type="text" name="Message" friendlyname="Message" narrative="Error message giving detail regarding why this action failed" stage="Message" />
+    </outputs>
+    <onsuccess>1aa31f0c-7b64-4e19-960a-d494aa55b050</onsuccess>
+    <resource object="Data - SQL Server" action="Execute" />
+  </stage>
+  <stage stageid="4db4d00e-143f-4b4e-abf9-dc580ff738a6" name="Message" type="Data">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="510" y="-135" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2cfaa336-dfec-4832-8ada-d9e95c53f133" name="Success" type="Data">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="585" y="-135" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b20f8fb5-90b3-4c84-af86-e8563a04145b" name="Loop Start1" type="LoopStart">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="240" y="0" />
+    <onsuccess>4947e747-3f15-41e9-b12b-f20a8dd17f59</onsuccess>
+    <groupid>b1ce3723-0544-48c1-9867-f104cd457e51</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Data</loopdata>
+  </stage>
+  <stage stageid="0404b6c5-dd14-41a8-a02f-406bf001a392" name="Loop End1" type="LoopEnd">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="240" y="195" />
+    <onsuccess>d86622b0-9bd8-4cbb-93fb-be65b7a237b3</onsuccess>
+    <groupid>b1ce3723-0544-48c1-9867-f104cd457e51</groupid>
+  </stage>
+  <stage stageid="86095b59-5b3f-4dc9-a25d-17d9a2f13e53" name="count" type="Data">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="135" y="15" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1aa31f0c-7b64-4e19-960a-d494aa55b050" name="increment count" type="Calculation">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="435" y="165" />
+    <onsuccess>86b3df78-e2d3-435f-a097-cdb6095133ac</onsuccess>
+    <calculation expression="[count]+1" stage="count" />
+  </stage>
+  <stage stageid="d828fd4d-2b98-4f19-a0dc-4d6acc73aea6" name="handle1" type="Data">
+    <subsheetid>e0a5a1f8-6f1f-45ed-bbe8-bf8e8a0c4b49</subsheetid>
+    <display x="150" y="-120" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4947e747-3f15-41e9-b12b-f20a8dd17f59" name="Decision3" type="Decision">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="330" y="30" />
+    <decision expression="[Data.name] &lt;&gt; &quot;&quot; &amp;&#xA;[Data.price] &lt;&gt; &quot;&quot;&amp;&#xA;[Data.ratings] &lt;&gt; &quot;&quot;" />
+    <ontrue>87f86bb8-944f-4e75-a205-f1095db1fd49</ontrue>
+    <onfalse>b64809fc-c12b-4c8d-accd-0847008b4e5f</onfalse>
+  </stage>
+  <stage stageid="b64809fc-c12b-4c8d-accd-0847008b4e5f" name="Exception4" type="Exception">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="435" y="30" />
+    <exception localized="yes" type="System" detail="&quot;collection contains nul values&quot;" />
+  </stage>
+  <stage stageid="374ef7dc-9dfc-4542-a0c3-4fc857744b98" name="Data - SQL Server::Get Collection" type="Action">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="240" y="-45" />
+    <inputs>
+      <input type="text" name="SQL" friendlyname="SQL" narrative="The SQL query to use to perform this action" expr="&quot;SELECT TOP (1000) [Name]&#xA;      ,[Price]&#xA;      ,[Ratings]&#xA;  FROM [MySampleDB].[dbo].[flipkartData1]&quot;" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="Success" friendlyname="Success" narrative="Flag indicating success (True) or failure (False)" stage="Success1" />
+      <output type="text" name="Message" friendlyname="Message" narrative="Error message giving detail regarding why this action failed" stage="Message1" />
+      <output type="collection" name="Results" friendlyname="Results" narrative="The collection of results from the query" stage="Results" />
+    </outputs>
+    <onsuccess>b20f8fb5-90b3-4c84-af86-e8563a04145b</onsuccess>
+    <resource object="Data - SQL Server" action="Get Collection" />
+  </stage>
+  <stage stageid="cd36e401-b4c5-422f-88aa-3083a12335a8" name="Message1" type="Data">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="510" y="-45" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4e98b768-0899-4019-817c-dcd6ee06d51e" name="Success1" type="Data">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="585" y="-45" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="fe1c6484-d26f-4e24-9e6d-830e953c81ce" name="Results" type="Collection">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="375" y="-60" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Name" type="text" />
+      <field name="Price" type="text" />
+      <field name="Ratings" type="text" />
+    </collectioninfo>
+    <initialvalue>
+      <row>
+        <field name="Name" type="text" value="" />
+        <field name="Price" type="text" value="" />
+        <field name="Ratings" type="text" value="" />
+      </row>
+    </initialvalue>
+  </stage>
+  <stage stageid="47f178a5-c225-4198-a63c-0ef62253374a" name="check replicate entry" type="Decision">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="435" y="75" />
+    <decision expression="[Data.name] &lt;&gt; [Results.Name] &amp;&#xA;[Data.price] &lt;&gt; [Results.Price]&amp;&#xA;[Data.ratings] &lt;&gt; [Results.Ratings]" />
+    <ontrue>a1084877-900a-4303-9680-94994d4d5835</ontrue>
+    <onfalse>275b8834-4793-4179-a89f-4c072632e508</onfalse>
+  </stage>
+  <stage stageid="87f86bb8-944f-4e75-a205-f1095db1fd49" name="Loop Start2" type="LoopStart">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="330" y="75" />
+    <onsuccess>47f178a5-c225-4198-a63c-0ef62253374a</onsuccess>
+    <groupid>f8415b36-01ed-46ed-9e04-f68706edef09</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Results</loopdata>
+  </stage>
+  <stage stageid="86b3df78-e2d3-435f-a097-cdb6095133ac" name="Loop End2" type="LoopEnd">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <loginhibit />
+    <display x="330" y="165" />
+    <onsuccess>0404b6c5-dd14-41a8-a02f-406bf001a392</onsuccess>
+    <groupid>f8415b36-01ed-46ed-9e04-f68706edef09</groupid>
+  </stage>
+  <stage stageid="275b8834-4793-4179-a89f-4c072632e508" name="Exception5" type="Exception">
+    <subsheetid>28f9b1c6-6054-424e-9178-08227322a2d1</subsheetid>
+    <display x="525" y="75" />
+    <exception localized="yes" type="System" detail="&quot;Duplicate entry is present&quot;" />
   </stage>
 </process>
